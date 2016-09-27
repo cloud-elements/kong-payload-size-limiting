@@ -6,4 +6,4 @@ plugin that comes with Kong, which includes:
 
 * Ability to limit by `Content-Type` pattern (i.e. have a different limit for JSON and file
   uploads)
-* TODO: Ability to ignore `Content-Length` header in responses to prevent potential abuse
+* TODO: Ability to ignore `Content-Length` header in responses to catch abusive clients
