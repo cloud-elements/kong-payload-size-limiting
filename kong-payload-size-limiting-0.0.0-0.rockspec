@@ -4,7 +4,7 @@ source = {
   url = "git://github.com/cloud-elements/kong-payload-size-limiting"
 }
 description = {
-  summary = "A better request size limiter plugin for Kong",
+  summary = "A better request size limiting plugin for Kong",
   license = "Apache 2.0"
 }
 dependencies = {
