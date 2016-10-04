@@ -1,0 +1,4 @@
+*.src.rock
+*.tar.gz
+*.zip
+luac.out
