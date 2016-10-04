@@ -8,6 +8,16 @@
 
 ## Installation
 
+Clone the repo and then:
+
 ```bash
 $ make install
 ```
+
+Edit `kong.conf`:
+
+```
+custom_plugins: payload-size-limiting
+```
+
+Restart Kong.
