@@ -8,16 +8,17 @@
 
 ## Installation
 
-Clone the repo and then:
+Install the module one of the two following ways and then update the `custom_plugins` setting
+within `kong.conf` or export the `KONG_CUSTOM_PLUGINS` environment variable. Finally, restart Kong.
+
+### Via `luarocks install`
 
 ```bash
-$ make install
+$ luarocks install kong-payload-size-limiting
 ```
 
-Edit `kong.conf`:
+### Via `luarocks make` (i.e. compiling locally)
 
+```bash
+$ luarocks make kong-payload-size-limiting-*.rockspec
 ```
-custom_plugins: payload-size-limiting
-```
-
-Restart Kong.
