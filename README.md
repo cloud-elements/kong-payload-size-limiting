@@ -4,7 +4,7 @@
 
 ## Additional Features
 
-* Set limits per `Content-Type` pattern
+* Set limit per `Content-Type` pattern
 
 ## Installation
 
