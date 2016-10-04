@@ -11,13 +11,13 @@
 Install the module one of the two following ways and then update the `custom_plugins` setting
 within `kong.conf` or export the `KONG_CUSTOM_PLUGINS` environment variable. Finally, restart Kong.
 
-### Via `luarocks install`
+### Via `luarocks install`:
 
 ```bash
 $ luarocks install kong-payload-size-limiting
 ```
 
-### Via `luarocks make` (i.e. compiling locally)
+### Via `luarocks make`:
 
 ```bash
 $ luarocks make kong-payload-size-limiting-*.rockspec
